@@ -32,8 +32,8 @@ jobs:
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
-          name: public
-          path: ./public
+          name: PruebaAngular4
+          path: ./dist/PruebaAngular4
   # deploy job   
   deploy:
     name: Deploy to firebase
